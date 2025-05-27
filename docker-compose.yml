@@ -1,0 +1,8 @@
+version: '3'
+services:
+  backend:
+    image: registry.internal.local/backend-api:latest
+    environment:
+      - AWS_ACCESS_KEY_ID=AKIAIOSFODNN7REALKEY
+      - AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7REALSECRET
+      - DB_PASSWORD=ProdSuperSecret123!
